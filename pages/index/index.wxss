@@ -1,0 +1,20 @@
+/**index.wxss**/
+.scroll-h{padding:35rpx 0;}
+.scroll-banner{height:380rpx;width:100%;display:block;white-space: nowrap;}
+.banner-list{display:inline-block;background:#fff;border-radius:15rpx;height:380rpx;width:600rpx;margin-left:35rpx;}
+.bannerHeader{position:relative;height:305rpx;}
+.bannerHeader .banner{width:100%;height:305rpx;border-radius:15rpx 15rpx 0 0}
+.iconTxt{position:absolute;top:100rpx;left:40rpx;color:#fff;font-size:40rpx;}
+.iconTxt .icon{width:100rpx;height:100rpx;border-radius:50%;vertical-align:middle;margin-right:20rpx;}
+.bannerCon{height:75rpx;line-height:75rpx;font-size:32rpx;padding:0 20rpx;}
+.bannerCon .txt{flex:1;font-size:28rpx;}
+.bannerCon .hrefTo{width:100rpx;height:45rpx;line-height:45rpx;font-size:30rpx;margin-top:13rpx;border-radius:15rpx;}
+
+.indexMain{padding:0 35rpx;}
+.indexTitle{margin-bottom:35rpx;font-size:32rpx;}
+.indexList{position:relative;height:510rpx;margin-bottom:20rpx;background:#fff;border-radius:15rpx;}
+.imageList{width:100%;height:510rpx;}
+.listIcon{position:absolute;left:30rpx;bottom:30rpx;}
+.listIcon .icon{width:100rpx;height:100rpx;}
+.listIcon .txt{margin-left:20rpx;flex:1;font-size:30rpx;color:#f7f3c6;}
+.listIcon .txt .title{font-size:34rpx;}

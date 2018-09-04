@@ -1,0 +1,16 @@
+<!--pages/list/list.wxml-->
+<view class='listMain'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+  <view class='partList'>
+    <image class='icon' src='{{item.icon}}'></image>
+    <view class='listCon flex'>
+      <view class='txt white-space'>
+        <text class='title white-space'>{{item.gameName}}</text>
+        <text class='white-space'>{{item.des}}</text>
+      </view>
+      <navigator class='hrefTo' target="miniProgram" app-id="{{item.appId}}" path="" open-type='navigate' extra-data="" version="release">打开</navigator>
+    </view>
+  </view>
+  </block>
+  
+</view>
